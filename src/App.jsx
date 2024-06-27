@@ -3,21 +3,21 @@ import Header from './components/header'
 import Hero from './components/hero'
 import Category from './components/category'
 import JobFeature from './components/feature-box'
+import Compaines from './components/companies'
+import CompainesImg from './components/comp-help'
+import MobileApp from './components/mobile-app'
+import Footer from './components/footer'
 function App() {
   return (
     <>
-    {/* header */}
      <Header/>
-    {/* header */}
-    {/* hero section */}
      <Hero/>
-    {/* hero section */}
-    {/* category */}
     <Category/>
-    {/* category */}
-    {/* job offer */}
     <JobFeature/>
-    {/* job offer */}
+    <Compaines/>
+    <CompainesImg/>
+    <MobileApp/>
+    <Footer/>
     </>
   )
 }

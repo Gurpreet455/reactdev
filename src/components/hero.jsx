@@ -9,10 +9,14 @@ export default function hero() {
             <h1>Find the perfect job <span className="blk">for you</span></h1>
               <p>Search your career opportunity through 12,800 jobs</p>
               <div className="search-details">
+                <div className="seabcmp">
                 <input type="text" placeholder='Search by job title, company or keywords'/>
+                </div>
+                <div className="seabloc">
                 <i className="fa-solid fa-location-dot"></i>
                 <input type="text" placeholder='Province, city, or region' className='religion'/>
                 <i className='fa-solid fa-magnifying-glass'></i>
+                </div>
               </div>
               <div className="dev-tabs">
                 <h3>Popular Searches</h3>
